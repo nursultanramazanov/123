@@ -1,0 +1,15 @@
+/*
+multi-column text
+*/
+
+div {
+	font-size: 13px;
+	width: 1000px;
+	margin: 0 auto;
+	font-family: arial;
+	text-align: justify;
+	column-count: 4; /*Устанавливает оптимальное число колонок*/
+	column-gap: 70px; /*Расстояние между колонками*/
+	column-width: 100px; /*Оптимальная ширина колонок*/
+	column-rule: 1px solid #f1f1f1; /*Разделительная линия между колонками*/ 
+}
